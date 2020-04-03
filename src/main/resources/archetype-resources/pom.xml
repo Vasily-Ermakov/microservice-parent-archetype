@@ -13,7 +13,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
+    <springBootVersion>2.2.5.RELEASE</springBootVersion>
   </properties>
 
   <dependencyManagement>
@@ -21,7 +21,7 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
-        <version>${spring.boot.version}</version>
+        <version>${springBootVersion}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
